@@ -7,28 +7,128 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		67243323EB984007903B139B /* Pods_iTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A170588FBEB00D6505E9FB03 /* Pods_iTime.framework */; };
 		9C256878281F8CCC0021A9D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C256877281F8CCC0021A9D7 /* AppDelegate.m */; };
-		9C25687B281F8CCC0021A9D7 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C25687A281F8CCC0021A9D7 /* SceneDelegate.m */; };
-		9C25687E281F8CCC0021A9D7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C25687D281F8CCC0021A9D7 /* ViewController.m */; };
 		9C256881281F8CCC0021A9D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C25687F281F8CCC0021A9D7 /* Main.storyboard */; };
 		9C256883281F8CCC0021A9D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C256882281F8CCC0021A9D7 /* Assets.xcassets */; };
 		9C256886281F8CCC0021A9D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C256884281F8CCC0021A9D7 /* LaunchScreen.storyboard */; };
 		9C256889281F8CCC0021A9D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C256888281F8CCC0021A9D7 /* main.m */; };
+		9C256895281F8D8F0021A9D7 /* UIColor+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C256891281F8D8F0021A9D7 /* UIColor+Utils.m */; };
+		9C256896281F8D8F0021A9D7 /* UIColor+App.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C256893281F8D8F0021A9D7 /* UIColor+App.m */; };
+		9C256899281F8DCA0021A9D7 /* ITNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C256898281F8DCA0021A9D7 /* ITNavigationController.m */; };
+		9C25689C281F8E0A0021A9D7 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C25689B281F8E0A0021A9D7 /* HomeViewController.m */; };
+		9C2568A0281F8EAE0021A9D7 /* UINavigationBar+Awesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C25689F281F8EAE0021A9D7 /* UINavigationBar+Awesome.m */; };
+		9C2568A5281F91290021A9D7 /* NSObject+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2568A3281F91290021A9D7 /* NSObject+Utils.m */; };
+		9C2568A928237CE20021A9D7 /* ITTimeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2568A828237CE20021A9D7 /* ITTimeView.m */; };
+		9C2568AC282385860021A9D7 /* ITSwitchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2568AB282385860021A9D7 /* ITSwitchCell.m */; };
+		9C2568AF282385A50021A9D7 /* ITOperationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2568AE282385A50021A9D7 /* ITOperationCell.m */; };
+		9C2568B2282385B00021A9D7 /* ITNormalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2568B1282385B00021A9D7 /* ITNormalCell.m */; };
+		9C2568B5282391550021A9D7 /* ITTimeSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2568B4282391550021A9D7 /* ITTimeSetting.m */; };
+		9C2568B8282397CA0021A9D7 /* ITTimeSettingsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2568B7282397CA0021A9D7 /* ITTimeSettingsCell.m */; };
+		9C2568BF2823D6800021A9D7 /* UIScrollView+SafeArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2568BD2823D6800021A9D7 /* UIScrollView+SafeArea.m */; };
+		9C2568C22823E1E10021A9D7 /* ITChangeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2568C12823E1E10021A9D7 /* ITChangeViewController.m */; };
+		9C2568C62823E28F0021A9D7 /* ITTimeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2568C52823E28F0021A9D7 /* ITTimeManager.m */; };
+		9C2568CA2823E96F0021A9D7 /* ITPipManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2568C92823E96F0021A9D7 /* ITPipManager.m */; };
+		9C2568CD2823F78F0021A9D7 /* ITFloatView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2568CC2823F78F0021A9D7 /* ITFloatView.m */; };
+		9C2568CF282400F90021A9D7 /* test.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9C2568CE282400F90021A9D7 /* test.mp4 */; };
+		9C2568D22824BFAF0021A9D7 /* ITChangeTextColorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2568D12824BFAF0021A9D7 /* ITChangeTextColorCell.m */; };
+		9C2568D52824BFCA0021A9D7 /* ITChangeBackgroundCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2568D42824BFCA0021A9D7 /* ITChangeBackgroundCell.m */; };
+		9C2568D82824BFE30021A9D7 /* ITChangeHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2568D72824BFE30021A9D7 /* ITChangeHeader.m */; };
+		9C2568EA282621700021A9D7 /* UIImage+Blur.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2568DD282621700021A9D7 /* UIImage+Blur.m */; };
+		9C2568F0282621700021A9D7 /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2568E8282621700021A9D7 /* UIImage+Color.m */; };
+		9C2568F428262C3E0021A9D7 /* ITChangeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2568F328262C3E0021A9D7 /* ITChangeCell.m */; };
+		9C2568FE2827F1630021A9D7 /* ITSoundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2568FD2827F1630021A9D7 /* ITSoundViewController.m */; };
+		9C2569012827F1D30021A9D7 /* ITSoundCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2569002827F1D30021A9D7 /* ITSoundCell.m */; };
+		9C25690D282A02850021A9D7 /* yinxiao1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 9C25690A282A02850021A9D7 /* yinxiao1.m4a */; };
+		9C25690E282A02850021A9D7 /* yinxiao2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 9C25690B282A02850021A9D7 /* yinxiao2.m4a */; };
+		9C25691C282A10440021A9D7 /* 1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 9C25691B282A0ED70021A9D7 /* 1.m4a */; };
+		9C25691D282A10440021A9D7 /* 2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 9C256919282A0E720021A9D7 /* 2.m4a */; };
+		9C25691E282A10440021A9D7 /* 3.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 9C256918282A0E720021A9D7 /* 3.m4a */; };
+		9C25691F282A10440021A9D7 /* 57.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 9C256917282A0E720021A9D7 /* 57.m4a */; };
+		9C256920282A10440021A9D7 /* 58.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 9C256916282A0E720021A9D7 /* 58.m4a */; };
+		9C256921282A10440021A9D7 /* 59.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 9C256915282A0E720021A9D7 /* 59.m4a */; };
+		9C256922282A10440021A9D7 /* yinxiao3.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 9C25691A282A0E7E0021A9D7 /* yinxiao3.m4a */; };
+		9C256925282A5C320021A9D7 /* ITGuideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C256924282A5C320021A9D7 /* ITGuideView.m */; };
+		9C256928282A63E80021A9D7 /* ITApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C256927282A63E80021A9D7 /* ITApplication.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9C256873281F8CCC0021A9D7 /* iTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C256876281F8CCC0021A9D7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9C256877281F8CCC0021A9D7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9C256879281F8CCC0021A9D7 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		9C25687A281F8CCC0021A9D7 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		9C25687C281F8CCC0021A9D7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9C25687D281F8CCC0021A9D7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9C256880281F8CCC0021A9D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9C256882281F8CCC0021A9D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C256885281F8CCC0021A9D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C256887281F8CCC0021A9D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C256888281F8CCC0021A9D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9C256891281F8D8F0021A9D7 /* UIColor+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Utils.m"; sourceTree = "<group>"; };
+		9C256892281F8D8F0021A9D7 /* UIColor+App.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+App.h"; sourceTree = "<group>"; };
+		9C256893281F8D8F0021A9D7 /* UIColor+App.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+App.m"; sourceTree = "<group>"; };
+		9C256894281F8D8F0021A9D7 /* UIColor+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Utils.h"; sourceTree = "<group>"; };
+		9C256897281F8DCA0021A9D7 /* ITNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ITNavigationController.h; sourceTree = "<group>"; };
+		9C256898281F8DCA0021A9D7 /* ITNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ITNavigationController.m; sourceTree = "<group>"; };
+		9C25689A281F8E0A0021A9D7 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		9C25689B281F8E0A0021A9D7 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		9C25689E281F8EAE0021A9D7 /* UINavigationBar+Awesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Awesome.h"; sourceTree = "<group>"; };
+		9C25689F281F8EAE0021A9D7 /* UINavigationBar+Awesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Awesome.m"; sourceTree = "<group>"; };
+		9C2568A1281F8EFB0021A9D7 /* iTime.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iTime.pch; sourceTree = "<group>"; };
+		9C2568A3281F91290021A9D7 /* NSObject+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Utils.m"; sourceTree = "<group>"; };
+		9C2568A4281F91290021A9D7 /* NSObject+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Utils.h"; sourceTree = "<group>"; };
+		9C2568A728237CE20021A9D7 /* ITTimeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ITTimeView.h; sourceTree = "<group>"; };
+		9C2568A828237CE20021A9D7 /* ITTimeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ITTimeView.m; sourceTree = "<group>"; };
+		9C2568AA282385860021A9D7 /* ITSwitchCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ITSwitchCell.h; sourceTree = "<group>"; };
+		9C2568AB282385860021A9D7 /* ITSwitchCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ITSwitchCell.m; sourceTree = "<group>"; };
+		9C2568AD282385A50021A9D7 /* ITOperationCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ITOperationCell.h; sourceTree = "<group>"; };
+		9C2568AE282385A50021A9D7 /* ITOperationCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ITOperationCell.m; sourceTree = "<group>"; };
+		9C2568B0282385B00021A9D7 /* ITNormalCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ITNormalCell.h; sourceTree = "<group>"; };
+		9C2568B1282385B00021A9D7 /* ITNormalCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ITNormalCell.m; sourceTree = "<group>"; };
+		9C2568B3282391550021A9D7 /* ITTimeSetting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ITTimeSetting.h; sourceTree = "<group>"; };
+		9C2568B4282391550021A9D7 /* ITTimeSetting.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ITTimeSetting.m; sourceTree = "<group>"; };
+		9C2568B6282397CA0021A9D7 /* ITTimeSettingsCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ITTimeSettingsCell.h; sourceTree = "<group>"; };
+		9C2568B7282397CA0021A9D7 /* ITTimeSettingsCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ITTimeSettingsCell.m; sourceTree = "<group>"; };
+		9C2568BB2823D6800021A9D7 /* UIScrollView+SafeArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+SafeArea.h"; sourceTree = "<group>"; };
+		9C2568BD2823D6800021A9D7 /* UIScrollView+SafeArea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+SafeArea.m"; sourceTree = "<group>"; };
+		9C2568C02823E1E10021A9D7 /* ITChangeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ITChangeViewController.h; sourceTree = "<group>"; };
+		9C2568C12823E1E10021A9D7 /* ITChangeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ITChangeViewController.m; sourceTree = "<group>"; };
+		9C2568C42823E28F0021A9D7 /* ITTimeManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ITTimeManager.h; sourceTree = "<group>"; };
+		9C2568C52823E28F0021A9D7 /* ITTimeManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ITTimeManager.m; sourceTree = "<group>"; };
+		9C2568C82823E96F0021A9D7 /* ITPipManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ITPipManager.h; sourceTree = "<group>"; };
+		9C2568C92823E96F0021A9D7 /* ITPipManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ITPipManager.m; sourceTree = "<group>"; };
+		9C2568CB2823F78F0021A9D7 /* ITFloatView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ITFloatView.h; sourceTree = "<group>"; };
+		9C2568CC2823F78F0021A9D7 /* ITFloatView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ITFloatView.m; sourceTree = "<group>"; };
+		9C2568CE282400F90021A9D7 /* test.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.mp4; sourceTree = "<group>"; };
+		9C2568D02824BFAF0021A9D7 /* ITChangeTextColorCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ITChangeTextColorCell.h; sourceTree = "<group>"; };
+		9C2568D12824BFAF0021A9D7 /* ITChangeTextColorCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ITChangeTextColorCell.m; sourceTree = "<group>"; };
+		9C2568D32824BFCA0021A9D7 /* ITChangeBackgroundCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ITChangeBackgroundCell.h; sourceTree = "<group>"; };
+		9C2568D42824BFCA0021A9D7 /* ITChangeBackgroundCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ITChangeBackgroundCell.m; sourceTree = "<group>"; };
+		9C2568D62824BFE30021A9D7 /* ITChangeHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ITChangeHeader.h; sourceTree = "<group>"; };
+		9C2568D72824BFE30021A9D7 /* ITChangeHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ITChangeHeader.m; sourceTree = "<group>"; };
+		9C2568DD282621700021A9D7 /* UIImage+Blur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Blur.m"; sourceTree = "<group>"; };
+		9C2568DF282621700021A9D7 /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
+		9C2568E6282621700021A9D7 /* UIImage+Blur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Blur.h"; sourceTree = "<group>"; };
+		9C2568E8282621700021A9D7 /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
+		9C2568F228262C3E0021A9D7 /* ITChangeCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ITChangeCell.h; sourceTree = "<group>"; };
+		9C2568F328262C3E0021A9D7 /* ITChangeCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ITChangeCell.m; sourceTree = "<group>"; };
+		9C2568FC2827F1630021A9D7 /* ITSoundViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ITSoundViewController.h; sourceTree = "<group>"; };
+		9C2568FD2827F1630021A9D7 /* ITSoundViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ITSoundViewController.m; sourceTree = "<group>"; };
+		9C2568FF2827F1D30021A9D7 /* ITSoundCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ITSoundCell.h; sourceTree = "<group>"; };
+		9C2569002827F1D30021A9D7 /* ITSoundCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ITSoundCell.m; sourceTree = "<group>"; };
+		9C25690A282A02850021A9D7 /* yinxiao1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = yinxiao1.m4a; sourceTree = "<group>"; };
+		9C25690B282A02850021A9D7 /* yinxiao2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = yinxiao2.m4a; sourceTree = "<group>"; };
+		9C256915282A0E720021A9D7 /* 59.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 59.m4a; sourceTree = "<group>"; };
+		9C256916282A0E720021A9D7 /* 58.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 58.m4a; sourceTree = "<group>"; };
+		9C256917282A0E720021A9D7 /* 57.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 57.m4a; sourceTree = "<group>"; };
+		9C256918282A0E720021A9D7 /* 3.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 3.m4a; sourceTree = "<group>"; };
+		9C256919282A0E720021A9D7 /* 2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 2.m4a; sourceTree = "<group>"; };
+		9C25691A282A0E7E0021A9D7 /* yinxiao3.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = yinxiao3.m4a; sourceTree = "<group>"; };
+		9C25691B282A0ED70021A9D7 /* 1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1.m4a; sourceTree = "<group>"; };
+		9C256923282A5C320021A9D7 /* ITGuideView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ITGuideView.h; sourceTree = "<group>"; };
+		9C256924282A5C320021A9D7 /* ITGuideView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ITGuideView.m; sourceTree = "<group>"; };
+		9C256926282A63E80021A9D7 /* ITApplication.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ITApplication.h; sourceTree = "<group>"; };
+		9C256927282A63E80021A9D7 /* ITApplication.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ITApplication.m; sourceTree = "<group>"; };
+		A170588FBEB00D6505E9FB03 /* Pods_iTime.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iTime.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A39281E8217BAF8747BCFA2D /* Pods-iTime.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTime.release.xcconfig"; path = "Target Support Files/Pods-iTime/Pods-iTime.release.xcconfig"; sourceTree = "<group>"; };
+		E0D1E591C6B7C81404BFAE9A /* Pods-iTime.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTime.debug.xcconfig"; path = "Target Support Files/Pods-iTime/Pods-iTime.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +136,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67243323EB984007903B139B /* Pods_iTime.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		35B9C9162DBA8ED22165454B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A170588FBEB00D6505E9FB03 /* Pods_iTime.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6DA2FA02B92B03C90C4B0E3C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E0D1E591C6B7C81404BFAE9A /* Pods-iTime.debug.xcconfig */,
+				A39281E8217BAF8747BCFA2D /* Pods-iTime.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		9C25686A281F8CCC0021A9D7 = {
 			isa = PBXGroup;
 			children = (
 				9C256875281F8CCC0021A9D7 /* iTime */,
 				9C256874281F8CCC0021A9D7 /* Products */,
+				6DA2FA02B92B03C90C4B0E3C /* Pods */,
+				35B9C9162DBA8ED22165454B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,17 +183,158 @@
 			children = (
 				9C256876281F8CCC0021A9D7 /* AppDelegate.h */,
 				9C256877281F8CCC0021A9D7 /* AppDelegate.m */,
-				9C256879281F8CCC0021A9D7 /* SceneDelegate.h */,
-				9C25687A281F8CCC0021A9D7 /* SceneDelegate.m */,
-				9C25687C281F8CCC0021A9D7 /* ViewController.h */,
-				9C25687D281F8CCC0021A9D7 /* ViewController.m */,
+				9C256926282A63E80021A9D7 /* ITApplication.h */,
+				9C256927282A63E80021A9D7 /* ITApplication.m */,
+				9C256897281F8DCA0021A9D7 /* ITNavigationController.h */,
+				9C256898281F8DCA0021A9D7 /* ITNavigationController.m */,
+				9C25688F281F8D410021A9D7 /* General */,
+				9C2568C32823E24A0021A9D7 /* Model */,
+				9C2568A628237C960021A9D7 /* View */,
+				9C25689A281F8E0A0021A9D7 /* HomeViewController.h */,
+				9C25689B281F8E0A0021A9D7 /* HomeViewController.m */,
+				9C2568FC2827F1630021A9D7 /* ITSoundViewController.h */,
+				9C2568FD2827F1630021A9D7 /* ITSoundViewController.m */,
+				9C2568C02823E1E10021A9D7 /* ITChangeViewController.h */,
+				9C2568C12823E1E10021A9D7 /* ITChangeViewController.m */,
+				9C2568F52827D8320021A9D7 /* Resources */,
 				9C25687F281F8CCC0021A9D7 /* Main.storyboard */,
 				9C256882281F8CCC0021A9D7 /* Assets.xcassets */,
 				9C256884281F8CCC0021A9D7 /* LaunchScreen.storyboard */,
 				9C256887281F8CCC0021A9D7 /* Info.plist */,
 				9C256888281F8CCC0021A9D7 /* main.m */,
+				9C2568A1281F8EFB0021A9D7 /* iTime.pch */,
 			);
 			path = iTime;
+			sourceTree = "<group>";
+		};
+		9C25688F281F8D410021A9D7 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				9C2568D9282621700021A9D7 /* Image */,
+				9C2568B92823D6800021A9D7 /* UIView */,
+				9C2568A2281F91290021A9D7 /* NSObject */,
+				9C25689D281F8EAE0021A9D7 /* UINavigationBar+Awesome */,
+				9C256890281F8D8F0021A9D7 /* UIColor */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		9C256890281F8D8F0021A9D7 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				9C256892281F8D8F0021A9D7 /* UIColor+App.h */,
+				9C256893281F8D8F0021A9D7 /* UIColor+App.m */,
+				9C256894281F8D8F0021A9D7 /* UIColor+Utils.h */,
+				9C256891281F8D8F0021A9D7 /* UIColor+Utils.m */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		9C25689D281F8EAE0021A9D7 /* UINavigationBar+Awesome */ = {
+			isa = PBXGroup;
+			children = (
+				9C25689E281F8EAE0021A9D7 /* UINavigationBar+Awesome.h */,
+				9C25689F281F8EAE0021A9D7 /* UINavigationBar+Awesome.m */,
+			);
+			path = "UINavigationBar+Awesome";
+			sourceTree = "<group>";
+		};
+		9C2568A2281F91290021A9D7 /* NSObject */ = {
+			isa = PBXGroup;
+			children = (
+				9C2568A4281F91290021A9D7 /* NSObject+Utils.h */,
+				9C2568A3281F91290021A9D7 /* NSObject+Utils.m */,
+			);
+			path = NSObject;
+			sourceTree = "<group>";
+		};
+		9C2568A628237C960021A9D7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9C2568A728237CE20021A9D7 /* ITTimeView.h */,
+				9C2568A828237CE20021A9D7 /* ITTimeView.m */,
+				9C2568B6282397CA0021A9D7 /* ITTimeSettingsCell.h */,
+				9C2568B7282397CA0021A9D7 /* ITTimeSettingsCell.m */,
+				9C2568AA282385860021A9D7 /* ITSwitchCell.h */,
+				9C2568AB282385860021A9D7 /* ITSwitchCell.m */,
+				9C2568AD282385A50021A9D7 /* ITOperationCell.h */,
+				9C2568AE282385A50021A9D7 /* ITOperationCell.m */,
+				9C2568B0282385B00021A9D7 /* ITNormalCell.h */,
+				9C2568B1282385B00021A9D7 /* ITNormalCell.m */,
+				9C2568CB2823F78F0021A9D7 /* ITFloatView.h */,
+				9C2568CC2823F78F0021A9D7 /* ITFloatView.m */,
+				9C2568F228262C3E0021A9D7 /* ITChangeCell.h */,
+				9C2568F328262C3E0021A9D7 /* ITChangeCell.m */,
+				9C2568D02824BFAF0021A9D7 /* ITChangeTextColorCell.h */,
+				9C2568D12824BFAF0021A9D7 /* ITChangeTextColorCell.m */,
+				9C2568D32824BFCA0021A9D7 /* ITChangeBackgroundCell.h */,
+				9C2568D42824BFCA0021A9D7 /* ITChangeBackgroundCell.m */,
+				9C2568D62824BFE30021A9D7 /* ITChangeHeader.h */,
+				9C2568D72824BFE30021A9D7 /* ITChangeHeader.m */,
+				9C2568FF2827F1D30021A9D7 /* ITSoundCell.h */,
+				9C2569002827F1D30021A9D7 /* ITSoundCell.m */,
+				9C256923282A5C320021A9D7 /* ITGuideView.h */,
+				9C256924282A5C320021A9D7 /* ITGuideView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9C2568B92823D6800021A9D7 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				9C2568BB2823D6800021A9D7 /* UIScrollView+SafeArea.h */,
+				9C2568BD2823D6800021A9D7 /* UIScrollView+SafeArea.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		9C2568C32823E24A0021A9D7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9C2568C72823E95D0021A9D7 /* Pip */,
+				9C2568B3282391550021A9D7 /* ITTimeSetting.h */,
+				9C2568B4282391550021A9D7 /* ITTimeSetting.m */,
+				9C2568C42823E28F0021A9D7 /* ITTimeManager.h */,
+				9C2568C52823E28F0021A9D7 /* ITTimeManager.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9C2568C72823E95D0021A9D7 /* Pip */ = {
+			isa = PBXGroup;
+			children = (
+				9C2568C82823E96F0021A9D7 /* ITPipManager.h */,
+				9C2568C92823E96F0021A9D7 /* ITPipManager.m */,
+			);
+			path = Pip;
+			sourceTree = "<group>";
+		};
+		9C2568D9282621700021A9D7 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				9C2568E6282621700021A9D7 /* UIImage+Blur.h */,
+				9C2568DD282621700021A9D7 /* UIImage+Blur.m */,
+				9C2568DF282621700021A9D7 /* UIImage+Color.h */,
+				9C2568E8282621700021A9D7 /* UIImage+Color.m */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		9C2568F52827D8320021A9D7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9C25691B282A0ED70021A9D7 /* 1.m4a */,
+				9C256919282A0E720021A9D7 /* 2.m4a */,
+				9C256918282A0E720021A9D7 /* 3.m4a */,
+				9C256917282A0E720021A9D7 /* 57.m4a */,
+				9C256916282A0E720021A9D7 /* 58.m4a */,
+				9C256915282A0E720021A9D7 /* 59.m4a */,
+				9C25690A282A02850021A9D7 /* yinxiao1.m4a */,
+				9C25690B282A02850021A9D7 /* yinxiao2.m4a */,
+				9C25691A282A0E7E0021A9D7 /* yinxiao3.m4a */,
+				9C2568CE282400F90021A9D7 /* test.mp4 */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,9 +344,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9C25688C281F8CCC0021A9D7 /* Build configuration list for PBXNativeTarget "iTime" */;
 			buildPhases = (
+				85BA1E5F6DCEBBA6D7E304B4 /* [CP] Check Pods Manifest.lock */,
 				9C25686F281F8CCC0021A9D7 /* Sources */,
 				9C256870281F8CCC0021A9D7 /* Frameworks */,
 				9C256871281F8CCC0021A9D7 /* Resources */,
+				45F620E1493BECD34C26EEDF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -103,6 +366,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				CLASSPREFIX = IT;
 				LastUpgradeCheck = 1330;
 				TargetAttributes = {
 					9C256872281F8CCC0021A9D7 = {
@@ -133,23 +397,100 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C25691C282A10440021A9D7 /* 1.m4a in Resources */,
+				9C25691D282A10440021A9D7 /* 2.m4a in Resources */,
+				9C25691E282A10440021A9D7 /* 3.m4a in Resources */,
+				9C25691F282A10440021A9D7 /* 57.m4a in Resources */,
+				9C256920282A10440021A9D7 /* 58.m4a in Resources */,
+				9C256921282A10440021A9D7 /* 59.m4a in Resources */,
+				9C256922282A10440021A9D7 /* yinxiao3.m4a in Resources */,
 				9C256886281F8CCC0021A9D7 /* LaunchScreen.storyboard in Resources */,
+				9C25690E282A02850021A9D7 /* yinxiao2.m4a in Resources */,
 				9C256883281F8CCC0021A9D7 /* Assets.xcassets in Resources */,
+				9C25690D282A02850021A9D7 /* yinxiao1.m4a in Resources */,
 				9C256881281F8CCC0021A9D7 /* Main.storyboard in Resources */,
+				9C2568CF282400F90021A9D7 /* test.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		45F620E1493BECD34C26EEDF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iTime/Pods-iTime-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iTime/Pods-iTime-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iTime/Pods-iTime-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85BA1E5F6DCEBBA6D7E304B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iTime-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9C25686F281F8CCC0021A9D7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C25687E281F8CCC0021A9D7 /* ViewController.m in Sources */,
+				9C2569012827F1D30021A9D7 /* ITSoundCell.m in Sources */,
+				9C2568B8282397CA0021A9D7 /* ITTimeSettingsCell.m in Sources */,
+				9C256925282A5C320021A9D7 /* ITGuideView.m in Sources */,
+				9C2568B5282391550021A9D7 /* ITTimeSetting.m in Sources */,
+				9C2568CD2823F78F0021A9D7 /* ITFloatView.m in Sources */,
+				9C2568AC282385860021A9D7 /* ITSwitchCell.m in Sources */,
+				9C2568F428262C3E0021A9D7 /* ITChangeCell.m in Sources */,
+				9C2568FE2827F1630021A9D7 /* ITSoundViewController.m in Sources */,
 				9C256878281F8CCC0021A9D7 /* AppDelegate.m in Sources */,
+				9C256896281F8D8F0021A9D7 /* UIColor+App.m in Sources */,
+				9C2568C22823E1E10021A9D7 /* ITChangeViewController.m in Sources */,
+				9C256899281F8DCA0021A9D7 /* ITNavigationController.m in Sources */,
+				9C2568D52824BFCA0021A9D7 /* ITChangeBackgroundCell.m in Sources */,
+				9C2568A0281F8EAE0021A9D7 /* UINavigationBar+Awesome.m in Sources */,
+				9C2568C62823E28F0021A9D7 /* ITTimeManager.m in Sources */,
+				9C2568A928237CE20021A9D7 /* ITTimeView.m in Sources */,
+				9C256928282A63E80021A9D7 /* ITApplication.m in Sources */,
+				9C256895281F8D8F0021A9D7 /* UIColor+Utils.m in Sources */,
+				9C2568B2282385B00021A9D7 /* ITNormalCell.m in Sources */,
+				9C2568CA2823E96F0021A9D7 /* ITPipManager.m in Sources */,
 				9C256889281F8CCC0021A9D7 /* main.m in Sources */,
-				9C25687B281F8CCC0021A9D7 /* SceneDelegate.m in Sources */,
+				9C2568AF282385A50021A9D7 /* ITOperationCell.m in Sources */,
+				9C2568D82824BFE30021A9D7 /* ITChangeHeader.m in Sources */,
+				9C2568EA282621700021A9D7 /* UIImage+Blur.m in Sources */,
+				9C2568BF2823D6800021A9D7 /* UIScrollView+SafeArea.m in Sources */,
+				9C2568F0282621700021A9D7 /* UIImage+Color.m in Sources */,
+				9C25689C281F8E0A0021A9D7 /* HomeViewController.m in Sources */,
+				9C2568A5281F91290021A9D7 /* NSObject+Utils.m in Sources */,
+				9C2568D22824BFAF0021A9D7 /* ITChangeTextColorCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,25 +628,31 @@
 		};
 		9C25688D281F8CCC0021A9D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0D1E591C6B7C81404BFAE9A /* Pods-iTime.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 78S3KGZT9F;
+				DEVELOPMENT_TEAM = 7766X494SY;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/iTime/iTime.pch";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = iTime/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "悬浮时钟";
+				INFOPLIST_KEY_NSCameraUsageDescription = "访问您的相册，以便于更改背景";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "访问您的相册，以便于更改背景";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.chang.iTime;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhuyameng.iTime;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -314,25 +661,31 @@
 		};
 		9C25688E281F8CCC0021A9D7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A39281E8217BAF8747BCFA2D /* Pods-iTime.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 78S3KGZT9F;
+				DEVELOPMENT_TEAM = 7766X494SY;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/iTime/iTime.pch";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = iTime/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "悬浮时钟";
+				INFOPLIST_KEY_NSCameraUsageDescription = "访问您的相册，以便于更改背景";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "访问您的相册，以便于更改背景";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.chang.iTime;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhuyameng.iTime;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
